@@ -23,6 +23,7 @@ h3{
 }
 a{
 	color: #C06C84;
+	font-family: 'Montserrat', sans-serif;
 }
 
 hr{
@@ -30,6 +31,18 @@ hr{
 	border-top: dotted;
 	border-width: 5px;
 	width: 5%;
+	color: #40514E;
+}
+p{
+	line-height: 2;
+}
+
+a{
+	text-decoration: none;
+}
+
+a:hover{
+	color: #B33030;
 }
 
 .top_container{
@@ -41,7 +54,7 @@ hr{
 	width: 50%;
 	margin: 100px auto 100px auto;
 	text-align: left;
-	line-height: 2;
+	
 
 }
 
@@ -76,10 +89,11 @@ hr{
 .copyright{
 	color: #EAF6F6;
 	font-family: 'Montserrat', sans-serif;
-	margin-bottom: 0;
+	font-size: 0.75rem;
 }
 .middle-container{
 	background-color: #F4EEFF;
+	padding: 100px 0;
 }
 .bottom-container{
 	background-color: #F67280;
@@ -87,10 +101,10 @@ hr{
 	padding: 20px;
 }
 
-.contact-me{
-	
-	padding-bottom: 80px;
+.logo{
+	margin: 10px 20px 10px;
 }
+
 
 .btn {
 	margin-top: 20px;
@@ -103,11 +117,13 @@ hr{
 	-webkit-border-radius: 8;
 	-moz-border-radius: 8;
 	border-radius: 8px;
-	font-family: Arial;
+	font-family: 'Montserrat', sans-serif;
 	color: #ffffff;
 	font-size: 20px;
 	padding: 10px 20px 10px 20px;
 	text-decoration: none;
+	position: relative;
+	top: 20px;
 }
 
 .btn:hover {
